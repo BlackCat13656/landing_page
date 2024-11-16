@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links div {
+    margin-right: 30px;
+}
+
+.page-body {
+    display: flex;
+    border: 2px solid black;
+    height: 400px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
