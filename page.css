@@ -64,7 +64,6 @@
     width: 500px;
     justify-content: center;
     border-radius: 10px;
-
 }
 
 .image {
@@ -72,11 +71,16 @@
     width: auto;
     border-radius: 10px;
 }
-
-.box-photo-container {
+.random-info-container {
     display: flex;
-    height: 200px;
-    width: 200px;
+    flex-wrap: wrap;
+}
+
+
+.box-photo img {
+    height: 280px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .random-header {
