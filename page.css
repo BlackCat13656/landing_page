@@ -103,4 +103,24 @@
 
 .box-photo-container p {
     color: white;
+    margin-bottom: 60px;
+}
+
+.client-comment-container {
+    font-size: 30px;
+    text-align: center;
+    padding:100px
+}
+
+.client-comment {
+    font-style: italic;
+    word-spacing: 5px;
+}
+
+.comment-author {
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: bold;
 }
