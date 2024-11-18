@@ -74,36 +74,45 @@
 }
 
 .random-info-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
     align-items: center;
-    background-color: #BFB5B4;
 
 }
 
 .random-header {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 20px;
     background-color: black;
     color: white;
+    width: 400px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border: 2px dotted #F294A5;
+    margin: 60px;
 }
 
 .box-photo-container {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    background-color: #f8bec4;
+    color: black;
+    width: 1200px;
     text-align: center;
-    background-color: black;
+    border-end-end-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-bottom: 60px;
 }
 
 .box-photo img {
     height: 280px;
     width: auto;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 40px;
 }
 
-.box-photo-container p {
-    color: white;
-    margin-bottom: 60px;
+.box-photo p {
+    margin-bottom: 20px;
 }
 
 .client-comment-container {
