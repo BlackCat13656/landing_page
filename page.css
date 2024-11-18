@@ -26,6 +26,25 @@
     display: flex;
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D96277;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+    text-transform: capitalize;
+}
+
+a:active {
+    background-color: black;
+    border-radius: 10px;
+}
 
 .header-links div {
     margin-right: 30px;
@@ -59,6 +78,12 @@
     letter-spacing: 2px;
     border: 2px dotted black;
 }
+
+.button-style:hover {
+    background-color: lightgray;
+}
+
+
 
 .body-image-container {
     display: flex;
